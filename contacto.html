@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./img/island_palm_nature_landscape_summer_water_icon_191969.ico">
+    <title>Contacto</title>
+</head>
+<body>
+      <!--   Encabezado principal -->
+    <header>
+        <h1>FlipStore</h1><!--  Titulo del sitio -->
+      <!--   icono del carrito , con enlace a la pagina del carrito -->
+         <a href="carrito.html" class="icono-carrito">🛒 <span id="contador-carrito">0</span></a>
+    </header>
+
+<!--      Barra de navegacion principal -->
+    <nav>
+        <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <footer class="formulario">
+
+        <!-- Formulario de contacto -->
+        <form action="https://formspree.io/f/mzzbgwbj" method="post" target="_blank">
+            <h1>Envíanos tu consulta</h1>
+            <!-- Campo para el correo electrónico -->
+            <label for="email"><h1>Correo electrónico</h1></label>
+            <input type="email" id="email" name="email" required><br>
+            <!-- Campo para el mensaje -->
+            <label for="mensaje"><h1>Tu consulta</h1></label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <!-- Botón para enviar el formulario -->
+            <button>Enviar</button>
+        </form>
+        <div class="container">
+            <h1 id="redes">Redes:</h1>
+            
+            <img class="RSocial" src="./img/facebook.png" alt="Facebook">
+            <img class="RSocial" src="./img/instagram.png" alt="Instagram">
+            <img class="RSocial" src="./img/twitter.png" alt="Twitter">
+            <img class="RSocial" src="./img/tiktok.png" alt="TikTok">
+        </div>
+</body>
+</html>
